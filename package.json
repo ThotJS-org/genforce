@@ -1,10 +1,10 @@
 {
   "name": "genforce",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Module to enforce harmony generator support for applications even in older versions of node",
   "main": "index.js",
   "scripts": {
-    "test": "node ./tests/test.js"
+    "test": "gulp && node tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,7 @@
   "keywords": [
     "Generators",
     "Harmony",
-    "ECMAScript",
-    "6"
+    "ECMAScript 6"
   ],
   "author": "Joshwa Fugett <jfugett@thotjs.io>",
   "license": "MIT",
@@ -26,5 +25,12 @@
     "generator-supported": "0.0.1",
     "gnode": "0.0.7",
     "semver": "^2.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-jscs": "^0.4.1",
+    "jshint-stylish": "^0.1.5",
+    "gulp-soften": "0.0.1"
   }
 }

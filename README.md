@@ -2,6 +2,8 @@ GenForce
 =======
 Module to enforce harmony generator support for applications even in older versions of node
 
+[![Build Status](https://travis-ci.org/thotjs/genforce.svg?branch=master)](https://travis-ci.org/thotjs/genforce)
+
 Tested on Node 0.8, 0.10, & 0.11
 
 This module is only meant to be used on the entry point of your application. Please do not use it
