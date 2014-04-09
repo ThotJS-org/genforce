@@ -1,5 +1,8 @@
 'use strict';
 
+var assert = require('assert');
 var genforce = require('../index');
 
-genforce('./generator-test');
+var result = genforce('../tests/generator-test');
+
+assert.equal(result, true);

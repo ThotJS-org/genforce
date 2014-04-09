@@ -14,8 +14,7 @@ var genforce = function genforce(filePath){
 
   // if generators are supported we can simply require it and return
   if(supported){
-    require(filePath);
-    return true;
+    return require(filePath);
   }
 
   // we need to see if generators are available in the current version of node
