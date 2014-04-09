@@ -5,12 +5,12 @@ var path = require('path');
 // this module checks to see if generator syntax is supported
 var supported = require('generator-supported');
 
-var genforce = function(filePath){
+var genforce = function genforce(filePath){
   // this is the main entry point to the application
   var mainPath = path.dirname(require.main.filename);
 
   // this is the main file for the application
-  var filePath = path.resolve(mainPath,  filePath);
+  filePath = path.resolve(mainPath,  filePath);
 
   // if generators are supported we can simply require it and return
   if(supported){
@@ -20,7 +20,7 @@ var genforce = function(filePath){
 
   // we need to see if generators are available in the current version of node
   var version = process.version;
-  var required = "v0.11.3";
+  var required = 'v0.11.3';
 
   var semver = require('semver');
 
@@ -43,7 +43,7 @@ var genforce = function(filePath){
 
   // add the proper filepath to avoid the extra requires again
   args.unshift(filePath);
-  args.unshift("--harmony");
+  args.unshift('--harmony');
 
   // set the io for the child thread
   var opts = {
@@ -70,4 +70,4 @@ if(require.main === module) {
   console.log('You can\'t run this script directly');
 }
 
-module.exports = enforce;
+module.exports = genforce;
