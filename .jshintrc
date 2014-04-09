@@ -31,7 +31,7 @@
 		"describe": true
 	},
 	"globalstrict": true,
-	"sub": true,
+	"sub": false,
 	"browser": true,
 	"devel": true,
 	"jquery": true,
