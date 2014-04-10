@@ -4,6 +4,7 @@ Module to enforce harmony generator support for applications even in older versi
 
 [![Build Status](https://travis-ci.org/ThotJS/genforce.svg?branch=master)](https://travis-ci.org/ThotJS/genforce)
 [![Code Climate](https://codeclimate.com/github/ThotJS/genforce.png)](https://codeclimate.com/github/ThotJS/genforce)
+[![Dependency Status](https://gemnasium.com/ThotJS/genforce.svg)](https://gemnasium.com/ThotJS/genforce)
 
 Tested on Node v0.10 & v0.11
 
