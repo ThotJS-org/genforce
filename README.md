@@ -2,7 +2,7 @@ GenForce
 =======
 Module to enforce harmony generator support for applications even in older versions of node
 
-[![Build Status](https://travis-ci.org/ThotJS/genforce.svg?branch=master)](https://travis-ci.org/ThotJS/genforce)
+[![Build Status](https://travis-ci.org/ThotJS/genforce.svg?branch=development)](https://travis-ci.org/ThotJS/genforce)
 [![Code Climate](https://codeclimate.com/github/ThotJS/genforce.png)](https://codeclimate.com/github/ThotJS/genforce)
 [![Dependency Status](https://david-dm.org/ThotJS/genforce.svg)](https://david-dm.org/ThotJS/genforce)
 [![devDependency Status](https://david-dm.org/ThotJS/genforce/dev-status.svg)](https://david-dm.org/ThotJS/genforce#info=devDependencies)
