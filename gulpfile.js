@@ -7,17 +7,19 @@ var jscs = require('gulp-jscs');
 var soften = require('gulp-soften');
 
 var paths = {
-  'srcFiles': ['*.js', 'tests/*.js']
+  'srcFiles': ['./**/*.js', '!node_modules{,/**}']
 };
 
 gulp.task('default', ['lint']);
 
 gulp.task('lint', function lint(){
-	return gulp.src(paths.srcFiles)
+  gulp.src(paths.srcFiles)
     .pipe(soften(2))
+    .pipe(gulp.dest('./'));
+
+  gulp.src(paths.srcFiles)
     .pipe(jshint())
     .pipe(jshint.reporter(stylish))
     .pipe(jshint.reporter('fail'))
-    .pipe(jscs())
-    .pipe(gulp.dest('./'));
+    .pipe(jscs());
 });
