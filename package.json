@@ -13,7 +13,9 @@
   "keywords": [
     "Generators",
     "Harmony",
-    "ECMAScript 6"
+    "ECMAScript 6",
+    "thot",
+    "thotjs"
   ],
   "author": "Joshwa Fugett <jfugett@thotjs.io>",
   "license": "MIT",
