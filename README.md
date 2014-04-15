@@ -6,6 +6,7 @@ Module to enforce harmony generator support for applications even in older versi
 [![Code Climate](https://codeclimate.com/github/ThotJS/genforce.png)](https://codeclimate.com/github/ThotJS/genforce)
 [![Dependency Status](https://david-dm.org/ThotJS/genforce.svg)](https://david-dm.org/ThotJS/genforce)
 [![devDependency Status](https://david-dm.org/ThotJS/genforce/dev-status.svg)](https://david-dm.org/ThotJS/genforce#info=devDependencies)
+[![unstable](https://badges.github.io/stability-badges/dist/unstable.svg)](https://github.com/badges/stability-badges)
 
 Tested on Node v0.10 & v0.11
 
